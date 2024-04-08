@@ -1,5 +1,56 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Changa:wght@200..800&family=Honk&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     background-color: #FEFCF3;
+    padding: 0 .5rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+  
+    font-family: "Changa", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #42423F;
+    font-size: large;
+    line-height: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo > img {
+    max-height: 47px;
 }
 
 main {
