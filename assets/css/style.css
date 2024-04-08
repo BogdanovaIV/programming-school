@@ -17,6 +17,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Header */
 header {
     background-color: #FEFCF3;
     padding: 0 .5rem;
@@ -29,8 +30,8 @@ header {
     align-items: center;
 }
 
-header h1 {
-  
+header {
+
     font-family: "Changa", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -49,14 +50,60 @@ header a {
     justify-content: space-between;
     align-items: center;
 }
-#logo > img {
+
+#logo>img {
     max-height: 47px;
 }
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+/*margin between menu buttons*/
+#menu>li {
+    margin-bottom: 1em;
+}
+
+/*stick current page*/
+.active {
+    font-weight: 600;
+    font-style:italic;
+}
+
+/* Main */
 
 main {
     background-color: #F0DBDB;
 }
 
+/* Footer */
 footer {
     background: #DBA39A;
+}
+
+/* Media query: tablets and larger(768px and up)*/
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+
+    nav {
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        margin-bottom: 0;
+        padding-left: 1rem;
+    }
 }
