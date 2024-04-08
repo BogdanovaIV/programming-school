@@ -51,19 +51,23 @@ header a {
     align-items: center;
 }
 
+#logo > h1 {
+    font-size: 100%;
+}
+
 #logo>img {
-    max-height: 47px;
+    max-height: 40px
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
 /*margin between menu buttons*/
 #menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 /*stick current page*/
@@ -72,6 +76,30 @@ header a {
     font-style:italic;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #FEFCF3;
+    box-shadow: 0 3px 3px #272727;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+.nav-toggle-label {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
 /* Main */
 
 main {
@@ -93,20 +121,33 @@ footer {
         flex-direction:column;
     }
 
+    #logo > h1 {
+        font-size: 140%;
+    }
+    
     nav {
         display: block;
-        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        padding: 0;
+        position: relative;
+        box-shadow: none;
     }
 
     #menu {
+        position: relative;
         display: flex;
+        box-shadow: none;
+        font-size: 120%;
     }
 
     #menu>li {
         margin-bottom: 0;
         padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
 }
 
@@ -118,8 +159,8 @@ footer {
         justify-content: space-between;
     }
 
-    #menu {
-        font-size: 160%;
+    #logo>img {
+        max-height: 47px
     }
-    
+
 }
