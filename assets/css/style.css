@@ -85,6 +85,8 @@ footer {
 
 /* Media query: tablets and larger(768px and up)*/
 @media screen and (min-width: 768px) {
+
+    /* Logo and menu are under each other*/
     header {
         justify-content: center;
         flex-wrap: wrap;
@@ -106,4 +108,18 @@ footer {
         margin-bottom: 0;
         padding-left: 1rem;
     }
+}
+
+/* Large devices (laptops and desktop, 992px and up)*/
+@media screen and (min-width: 992px) {
+    /* Logo and menu are in one line*/
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #menu {
+        font-size: 160%;
+    }
+    
 }
