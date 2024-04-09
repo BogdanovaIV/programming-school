@@ -14,9 +14,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #42423F;
-    font-family: 'Lato', sans-serif;
-    /*Put down footer*/
-    justify-content: space-between;
+    font-family: YS Text, Helvetica, Arial, sans-serif;
 }
 
 /* Header */
@@ -30,17 +28,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-header {
-
+    /*Decorate font*/
     font-family: "Changa", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: large;
     line-height: 25px;
+
     /*Set equal height for all phone and laptop*/
     min-height: 50px;
+
 }
 
 header a {
@@ -106,12 +104,44 @@ nav {
 /* Main */
 
 main {
-    background-color: #F0DBDB;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 50px;
-
+     /* Enable flex properties for child elements */
+     display: flex;
+     flex-direction: column;
 }
 
+#join-our-team {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#join-our-team h2 {
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 4rem;
+    background-color: #272727;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width:fit-content;
+
+}
 /* Footer */
 footer {
     display: flex;
@@ -179,6 +209,9 @@ footer {
     
     }
 
+    #join-our-team h2 {
+        font-size: 250%;
+    }
     /* Footer */
     footer {
         flex-direction: row;
