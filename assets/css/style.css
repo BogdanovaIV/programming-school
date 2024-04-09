@@ -38,6 +38,8 @@ header {
     color: #42423F;
     font-size: large;
     line-height: 25px;
+    /*Set equal height for all phone and laptop*/
+    min-height: 50px;
 }
 
 header a {
@@ -104,11 +106,24 @@ nav {
 
 main {
     background-color: #F0DBDB;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 50px;
+
 }
 
 /* Footer */
 footer {
     background: #DBA39A;
+}
+
+/* Media query: big phones (768px and 992px)*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    main {
+        /* Add margin at the top to prevent content from being covered by the header */
+        margin-top: 65px;
+    
+    }
 }
 
 /* Media query: tablets and larger(768px and up)*/
