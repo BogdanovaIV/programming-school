@@ -140,6 +140,7 @@ footer {
 /* Media query: tablets and larger(768px and up)*/
 @media screen and (min-width: 768px) {
 
+    /* Header */
     /* Logo and menu are under each other*/
 
     #logo > h1 {
@@ -171,17 +172,30 @@ footer {
         display: none;
     }
 
+    /* Main */
     main {
         /* Add margin at the top to prevent content from being covered by the header */
         margin-top: 50px;
     
     }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+    }
+
+    #info-author {
+        white-space: nowrap;
+        text-align: right;
+        padding: 0 0.5rem;
+    }
 }
 
 /* Large devices (laptops and desktop, 992px and up)*/
 @media screen and (min-width: 992px) {
-    /* Logo and menu are in one line*/
 
+    /* Header */
+    /* Logo and menu are in one line*/
     #logo>img {
         max-height: 47px
     }
