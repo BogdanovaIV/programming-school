@@ -151,6 +151,7 @@ main {
     justify-content: space-evenly;
 }
 
+
 .type-courses-style {
     border-radius: 10px;
     border: none;
@@ -162,7 +163,7 @@ main {
 }
 
 #data-analysis {
-    background: url('../images/type-courses/data-analisis-first.webp') no-repeat center/cover;
+    background: url('../images/type-courses/data-analysis-first.webp') no-repeat center/cover;
 }
 
 #design {
@@ -249,6 +250,7 @@ footer {
     #type-courses {
         flex-direction: row;
     }
+
     /* Footer */
     footer {
         flex-direction: row;
@@ -270,4 +272,42 @@ footer {
         max-height: 47px
     }
 
+    /* Main */
+
+    /*Change the image and display the h2 when hover*/
+    #data-analysis p {
+        display: none;
+    }
+
+    #data-analysis:hover p {
+        display: block;
+    }
+
+    #data-analysis:hover {
+        background: url('../images/type-courses/data-analysis-second.webp') no-repeat center/cover;
+    }
+
+    #design p {
+        display: none;
+    }
+
+    #design:hover p {
+        display: block;
+    }
+
+    #design:hover {
+        background: url('../images/type-courses/design-second.jpg') no-repeat center/cover;
+    }
+
+    #programming p {
+        display: none;
+    }
+
+    #programming:hover p {
+        display: block;
+    }
+
+    #programming:hover {
+        background: url('../images/type-courses/programming-second.jpg') no-repeat center/cover;
+    }
 }
