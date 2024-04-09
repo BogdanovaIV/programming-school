@@ -148,6 +148,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .type-courses-style {
@@ -245,6 +246,9 @@ footer {
         font-size: 250%;
     }
 
+    #type-courses {
+        flex-direction: row;
+    }
     /* Footer */
     footer {
         flex-direction: row;
