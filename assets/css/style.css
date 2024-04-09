@@ -13,8 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: #3a3a3a;
+    color: #42423F;
     font-family: 'Lato', sans-serif;
+    /*Put down footer*/
+    justify-content: space-between;
 }
 
 /* Header */
@@ -35,7 +37,6 @@ header {
     font-family: "Changa", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #42423F;
     font-size: large;
     line-height: 25px;
     /*Set equal height for all phone and laptop*/
@@ -113,9 +114,29 @@ main {
 
 /* Footer */
 footer {
-    background: #DBA39A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background: #FEFCF3;
 }
 
+#social-networks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #42423F;
+}
+
+#red-heart {
+    color: #CC2C1F;
+}
 /* Media query: tablets and larger(768px and up)*/
 @media screen and (min-width: 768px) {
 
