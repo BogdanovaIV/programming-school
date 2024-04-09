@@ -52,7 +52,7 @@ header a {
     align-items: center;
 }
 
-#logo > h1 {
+#logo>h1 {
     font-size: 100%;
 }
 
@@ -74,7 +74,7 @@ header a {
 /*stick current page*/
 .active {
     font-weight: 600;
-    font-style:italic;
+    font-style: italic;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -101,6 +101,7 @@ nav {
     padding-left: 1rem;
     font-size: 2rem;
 }
+
 /* Main */
 
 main {
@@ -108,9 +109,9 @@ main {
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 50px;
-     /* Enable flex properties for child elements */
-     display: flex;
-     flex-direction: column;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 #join-our-team {
@@ -139,14 +140,44 @@ main {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    width:fit-content;
+    width: fit-content;
 
 }
+
+#type-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type-courses-style {
+    border-radius: 10px;
+    border: none;
+    height: 40vh;
+    width: 40vh;
+    color: #ffffff;
+    padding: 2px 10px;
+    margin: 1rem;
+}
+
+#data-analysis {
+    background: url('../images/type-courses/data-analisis-first.webp') no-repeat center/cover;
+}
+
+#design {
+    background: url('../images/type-courses/design-first.jpg') no-repeat center/cover;
+}
+
+#programming {
+    background: url('../images/type-courses/programming-first.jpg') no-repeat center/cover;
+}
+
+
 /* Footer */
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
     background: #FEFCF3;
 }
 
@@ -167,16 +198,17 @@ footer {
 #red-heart {
     color: #CC2C1F;
 }
+
 /* Media query: tablets and larger(768px and up)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
     /* Logo and menu are under each other*/
 
-    #logo > h1 {
+    #logo>h1 {
         font-size: 140%;
     }
-    
+
     nav {
         display: block;
         width: fit-content;
@@ -206,12 +238,13 @@ footer {
     main {
         /* Add margin at the top to prevent content from being covered by the header */
         margin-top: 50px;
-    
+
     }
 
     #join-our-team h2 {
         font-size: 250%;
     }
+
     /* Footer */
     footer {
         flex-direction: row;
