@@ -116,16 +116,6 @@ footer {
     background: #DBA39A;
 }
 
-/* Media query: big phones (768px and 992px)*/
-@media screen and (min-width: 768px) and (max-width:992px) {
-
-    main {
-        /* Add margin at the top to prevent content from being covered by the header */
-        margin-top: 65px;
-    
-    }
-}
-
 /* Media query: tablets and larger(768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -159,15 +149,17 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    main {
+        /* Add margin at the top to prevent content from being covered by the header */
+        margin-top: 50px;
+    
+    }
 }
 
 /* Large devices (laptops and desktop, 992px and up)*/
 @media screen and (min-width: 992px) {
     /* Logo and menu are in one line*/
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
     #logo>img {
         max-height: 47px
