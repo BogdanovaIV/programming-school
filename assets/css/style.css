@@ -28,14 +28,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
+
     /*Decorate font*/
     font-family: "Changa", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: large;
     line-height: 25px;
-    color:#ffffff;
+    color: #ffffff;
     /*Set equal height for all phone and laptop*/
     min-height: 50px;
 
@@ -219,9 +219,57 @@ main {
     margin: 1rem 0;
     border-right: 2px outset #42423F;
     border-bottom: 2px outset #42423F;
- 
+
 }
 
+/* courses.html*/
+#courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-items div {
+    border-radius: 10px;
+    border: none;
+    padding: 2px 10px;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    box-shadow: 0 2px 10px #7D919E;
+}
+
+.courses-items h2 {
+    padding: 1rem 0;
+    color: #A51C30;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.courses-items img {
+    border-radius: 10px;
+    height: 38vh;
+    width: 100%;
+    padding: 5px;
+}
+
+.courses-items ul {
+    padding: 1rem;
+}
+
+
+.courses-items li {
+    padding: 0.5rem;
+    list-style: inside;
+}
 /* Footer */
 footer {
     display: flex;
@@ -307,6 +355,7 @@ footer {
     .contact-us-item {
         margin: 1rem;
     }
+
     /* Footer */
     footer {
         flex-direction: row;
