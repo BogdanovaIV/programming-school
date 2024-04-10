@@ -351,6 +351,21 @@ footer {
         margin: 1rem;
     }
 
+    /*Courses.html*/
+    #courses-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    #courses-items img {
+        height: 40vh;
+        width: fit-content;
+    }
+
+    #courses-items div {
+        width: min-content;
+    }
     /* Footer */
     footer {
         flex-direction: row;
