@@ -19,23 +19,23 @@ body {
 
 /* Header */
 header {
-    background-color: #FEFCF3;
+    background-color: #96AEBE;
     padding: 0 .5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px #272727;
+    box-shadow: 0 3px 3px #7D919E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+ 
     /*Decorate font*/
     font-family: "Changa", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: large;
     line-height: 25px;
-
+    color:#ffffff;
     /*Set equal height for all phone and laptop*/
     min-height: 50px;
 
@@ -80,8 +80,8 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #FEFCF3;
-    box-shadow: 0 3px 3px #272727;
+    background-color: #96AEBE;
+    box-shadow: 0 3px 3px #7D919E;
     width: 100%;
     left: 0;
     padding: 0 1rem;
