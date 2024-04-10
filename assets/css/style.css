@@ -227,8 +227,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #7D919E;
+    background-color: #96AEBE;
     color: #ffffff;
+    box-shadow: 0 -2px 2px #7D919E;
 }
 
 #social-networks {
