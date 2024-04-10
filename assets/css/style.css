@@ -179,16 +179,6 @@ main {
     background: url('../images/type-courses/programming-first.jpg') no-repeat center/cover;
 }
 
-#contact-us {
-    display: flex;
-    flex-direction: column;
-    background-color: #EDEDED;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
-}
-
 #contact-us i {
     font-size: 160%;
     padding: 5%;
@@ -201,19 +191,35 @@ main {
 
 #contact-us>h2 {
     font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    background-color: #EDEDED;
+    padding-top: 1rem;
+}
+
+#contact-us-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
 
 .contact-us-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-self: stretch;
     text-align: center;
     border: outset;
     width: 100%;
-    margin: 1rem;
+    margin: 1rem 0;
     border-right: 2px outset #42423F;
     border-bottom: 2px outset #42423F;
+ 
 }
 
 /* Footer */
@@ -292,6 +298,13 @@ footer {
         flex-direction: row;
     }
 
+    #contact-us-items {
+        flex-direction: row;
+    }
+
+    .contact-us-item {
+        margin: 1rem;
+    }
     /* Footer */
     footer {
         flex-direction: row;
