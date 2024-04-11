@@ -266,6 +266,49 @@ main {
     list-style: inside;
 }
 
+/* Sign up */
+#signup {
+    background-image: url("../images/sign-up-background.jpg");
+    background-size: cover;
+    padding: 20px 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color:#fafafa;
+    background-color: #7d919eac;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#signup-form  h2 {
+    padding-bottom: 20px;
+}
+
+#signup-form  h3 {
+    padding: 10px 0;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 0 5px;
+    height: 25px;
+    width: 100%;
+}
+
+.checkbox-courses div {
+    padding-bottom: 5px;
+}
+
+.join-button {
+    background-color: #272727a8;
+    border: 1px solid #fafafa;
+    padding: 1rem 3rem;
+}
 /* Footer */
 footer {
     display: flex;
