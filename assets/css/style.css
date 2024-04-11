@@ -410,6 +410,17 @@ footer {
     #courses-items div {
         width: min-content;
     }
+
+    /*Sign up*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+    }
+
     /* Footer */
     footer {
         flex-direction: row;
