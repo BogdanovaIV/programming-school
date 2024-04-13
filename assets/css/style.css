@@ -241,6 +241,7 @@ main {
     align-items: flex-start;
 
     box-shadow: 0 2px 10px #7D919E;
+
 }
 
 #courses-items h2 {
@@ -404,7 +405,7 @@ footer {
     }
 
     #courses-items img {
-        height: 40vh;
+        height: 12rem;
         width: fit-content;
     }
 
@@ -445,6 +446,9 @@ footer {
 
     /* Main */
 
+    #courses-items {
+        justify-content: flex-start;
+    }
     /*Change the image and display the h2 when hover*/
     #data-analysis p {
         display: none;
