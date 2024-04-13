@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #42423F;
-    font-family: YS Text, Helvetica, Arial, sans-serif;
+    font-family: YSText, Helvetica, Arial, sans-serif;
 }
 
 /* Header */
@@ -252,7 +252,7 @@ main {
 
 #courses-items img {
     border-radius: 10px;
-    width: -webkit-fill-available;
+    width: 100%;
     padding: 5px;
 }
 
@@ -275,17 +275,17 @@ main {
 }
 
 #signup-form {
-    color:#fafafa;
+    color: #fafafa;
     background-color: #7d919eac;
     padding: 30px;
     border-radius: 5px;
 }
 
-#signup-form  h2 {
+#signup-form h2 {
     padding-bottom: 20px;
 }
 
-#signup-form  h3 {
+#signup-form h3 {
     padding: 10px 0;
 }
 
@@ -309,6 +309,7 @@ main {
     border: 1px solid #fafafa;
     padding: 1rem 3rem;
 }
+
 /* Footer */
 footer {
     display: flex;
@@ -401,7 +402,7 @@ footer {
         flex-wrap: wrap;
         justify-content: space-between;
     }
- 
+
     #courses-items img {
         height: 40vh;
         width: fit-content;
