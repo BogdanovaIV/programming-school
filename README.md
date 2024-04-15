@@ -14,10 +14,18 @@ The site can be accessed by this [link](https://bogdanovaiv.github.io/programmin
 - __Navigation Bar__
 
   - This section contains image logo and links: the Logo, Home page, Courses and Sign Up.
-  - Navigation allow the user to easily get targets without having to revert back to the previous page via the ‘back’ button.
+  - The navigation allow the user to easily get targets without having to revert back to the previous page via the ‘back’ button.
   
   ![Navigation Bar](documentation/programming-school-navigation-bar.png) 
 
   - Links have hover effect: text-shadow.
 
   ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-hover.png) 
+
+  - The navigation bar represents a button on smart phone.
+
+  ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-phone.png)
+         
+    When pressed, the navigation expands.
+
+    ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-phone-push.png)
