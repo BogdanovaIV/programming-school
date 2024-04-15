@@ -401,7 +401,7 @@ footer {
     #courses-items {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #courses-items img {
@@ -446,9 +446,6 @@ footer {
 
     /* Main */
 
-    #courses-items {
-        justify-content: flex-start;
-    }
     /*Change the image and display the h2 when hover*/
     #data-analysis p {
         display: none;
