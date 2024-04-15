@@ -71,3 +71,22 @@ __The Courses Page__
 
 __The Sign Up Page__
 
+ - The page allows the user to join the course. The user can write personal information and check several courses. First name, Second name and Email are required for fill. The form has hover effect.
+
+ ![The Sing Up Page](documentation/programming-school-signup.png)
+
+ When hovered the text field, it adds box-shadow.
+
+ ![The Sing Up Page (hovered text)](documentation/programming-school-signup-hover-text.png)
+
+ When hovered the checkbox, it adds box-shadow on the checkbox and text-shadow on the label.
+
+ ![The Sing Up Page (hovered checkbox)](documentation/programming-school-signup-hover-checkbox.png)
+
+When hovered the button, it changes the color of the button.
+
+![The Sing Up Page (hovered button)](documentation/programming-school-signup-hover-button.png)
+
+When pressed the button, it opens new page with information about receiving the application.
+
+![The Sing Up Page (receiving the application)](documentation/programming-school-signup-press-button.png)
