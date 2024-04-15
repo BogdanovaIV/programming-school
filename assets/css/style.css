@@ -452,7 +452,9 @@ footer {
 
     /*General*/
     /* Add letter stroke*/
-    #social-networks i:hover, .text-shadow:hover {
+    #social-networks i:hover,
+    .text-shadow:hover,
+    .checkbox-shadow:hover+.text-shadow {
         text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
     }
 
