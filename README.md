@@ -87,6 +87,31 @@ When hovered the button, it changes the color of the button.
 
 ![The Sing Up Page (hovered button)](documentation/programming-school-signup-hover-button.png)
 
-When pressed the button, it opens new page with information about receiving the application.
+When pressed the button, it opens new page with information about receiving the application. The page refreshes automatically to The Home page after 15 seconds. 
 
 ![The Sing Up Page (receiving the application)](documentation/programming-school-signup-press-button.png)
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found [here](https://bogdanovaiv.github.io/programming-school/)
+
+
+## Credits 
+
+### Content 
+
+- The text was taken from free recourses like Wikipedia
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on all page are from [This Open Source site] (https://pxhere.com)
