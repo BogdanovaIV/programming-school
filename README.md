@@ -24,8 +24,19 @@ The site can be accessed by this [link](https://bogdanovaiv.github.io/programmin
 
   - The navigation bar represents a button on smart phone.
 
-  ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-phone.png)
+  ![Navigation Bar on phones](documentation/programming-school-navigation-bar-phone.png)
          
     When pressed, the navigation expands.
 
-    ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-phone-push.png)
+    ![Navigation Bar  on phones (push)](documentation/programming-school-navigation-bar-phone-push.png)
+
+ __The Footer__
+
+ - The footer section includes links to the relevant social media sites for Programming School. The links will open to a new tab to allow easy navigation for the user.
+ - The footer has information about the author and date of creation.
+
+ ![The Footer](documentation/programming-school-footer.png)
+
+ - Links have hover effect: text-shadow.
+
+ ![The Footer (hover)](documentation/programming-school-footer-hover.png)
