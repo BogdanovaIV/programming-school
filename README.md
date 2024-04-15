@@ -40,3 +40,25 @@ The site can be accessed by this [link](https://bogdanovaiv.github.io/programmin
  - Links have hover effect: text-shadow.
 
  ![The Footer (hover)](documentation/programming-school-footer-hover.png)
+
+__The Home Page__
+
+ - The page has a section with tagline and a button which opens Sigh up page. It attracts user's attention and allows to move quickly. Also, the button has hover effect and change the color.
+
+![The Home Page (join our team)](documentation/programming-school-home-join-our-team.png)
+ 
+ When hovered the button, it changes the color.
+
+ ![The Home Page (join our team). Hover](documentation/programming-school-home-join-our-team-hover.png)
+ 
+ - The page includes information about types of courses and has hovered animation. A number of image's columns depends on screen size. It is one or three columns. When one column, the section has detail information about courses in advance.
+
+![The Home Page (types of courses)](documentation/programming-school-home-types-courses.png)
+
+ When hovered the image, it changes the image and add detail course's information.
+
+ ![The Home Page (join our team). Hover](documentation/programming-school-home-types-courses-hover.png)
+ 
+ - The page has the contact section where the user can find contact information. A number of contact columns depends on screen size. It is one or three columns.
+
+ ![The Home Page (contact us)](documentation/programming-school-home-contact-us.png)
