@@ -62,3 +62,12 @@ __The Home Page__
  - The page has the contact section where the user can find contact information. A number of contact columns depends on screen size. It is one or three columns.
 
  ![The Home Page (contact us)](documentation/programming-school-home-contact-us.png)
+
+__The Courses Page__
+
+- The page provides detail information about courses which includes skills, prices, durations and available. A number of cards depends on screen size. It is one or more columns.
+
+ ![The Courses Page](documentation/programming-school-courses.png)
+
+__The Sign Up Page__
+
