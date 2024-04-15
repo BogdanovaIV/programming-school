@@ -22,16 +22,24 @@
     <header>
 
         <a id="logo" href="index.html">
-            <img src="assets/images/Logo/logo-390x390.png" alt="Our logo">
+            <img src="assets/images/Logo/logo-390x390.png" alt="Logo programming school">
             <h1>Programming School</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
+        <label for="nav-toggle" class="nav-toggle-label" id="menu-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav role="navigation" aria-label="Main navigation menu" aria-labelledby="menu-label">
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses.html" class="active">Courses</a></li>
-                <li><a href="signup.html">Sign up</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html" class="active">Courses</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign up</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -76,8 +84,7 @@
 
             </div>
             <div>
-                <img src="assets/images/courses/interface-designer.png"
-                    alt="Loptop and phone stand on a colored table">
+                <img src="assets/images/courses/interface-designer.png" alt="Laptop and phone stand on a colored table">
                 <h2>Interface designer</h2>
                 <p>Learn the basics of UX/UI design. Use popular tools: Figma and Adobe Photoshop.</p>
                 <ul>
@@ -126,11 +133,17 @@
 
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Youtube chanel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Youtube chanel (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
             </li>
         </ul>
         <div id="info-author">

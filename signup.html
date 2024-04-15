@@ -22,16 +22,24 @@
     <header>
 
         <a id="logo" href="index.html">
-            <img src="assets/images/Logo/logo-390x390.png" alt="Our logo">
+            <img src="assets/images/Logo/logo-390x390.png" alt="Logo programming school">
             <h1>Programming School</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
+        <label for="nav-toggle" class="nav-toggle-label" id="menu-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav role="navigation" aria-label="Main navigation menu" aria-labelledby="menu-label">
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="signup.html" class="active">Sign up</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="signup.html" class="active">Sign up</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -47,43 +55,50 @@
                 <input type="text" id="last-name" name="last-name" class="text-input" required>
                 <br>
                 <label for="age">Age</label>
-                <input type="number" id="age" name="age" class="text-input" required>
+                <input type="number" id="age" name="age" class="text-input">
                 <br>
                 <label for="phone">Phone</label>
                 <!--Use pattern for sort out-->
                 <input type="tel" pattern="[0-9\+\-]+" title="Only numbers, + and - are allowed" id="phone" name="phone"
-                    class="text-input" required>
+                    class="text-input" >
                 <br>
                 <label for="email-address">Email Address</label>
                 <input type="email" id="email-address" name="email-address" class="text-input" required>
                 <br>
                 <div class="checkbox-courses">
                     <h3>Select courses which you are interested in.</h3>
-                    <div><input type="checkbox" id="course-sql-data-science" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-sql-data-science" name="courses[]"
                             value="course-sql-data-science">
                         <label for="course-sql-data-science">SQL For Data Science And Analytics</label>
                     </div>
-                    <div><input type="checkbox" id="course-sql-development" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-sql-development" name="courses[]"
                             value="course-sql-development">
                         <label for="course-sql-development">SQL For Development</label>
                     </div>
-                    <div><input type="checkbox" id="course-python-data-analysis" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-python-data-analysis" name="courses[]"
                             value="course-python-data-analysis">
                         <label for="course-python-data-analysis">Python For Data Analysis</label>
                     </div>
-                    <div><input type="checkbox" id="course-interface-designer" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-interface-designer" name="courses[]"
                             value="course-interface-designer">
                         <label for="course-interface-designer">Interface designer</label>
                     </div>
-                    <div><input type="checkbox" id="course-graphic-designer" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-graphic-designer" name="courses[]"
                             value="course-graphic-designer">
                         <label for="course-graphic-designer">Graphic Designer</label>
                     </div>
-                    <div><input type="checkbox" id="course-java-developer" name="courses[]"
+                    <div>
+                        <input type="checkbox" id="course-java-developer" name="courses[]"
                             value="course-java-developer">
                         <label for="course-java-developer">Java Developer</label>
                     </div>
-                    <div><input type="checkbox" id="course-c-developer" name="courses[]" value="course-c-developer">
+                    <div>
+                        <input type="checkbox" id="course-c-developer" name="courses[]" value="course-c-developer">
                         <label for="course-c-developer">C++ Developer</label>
                     </div>
                 </div>
@@ -100,8 +115,11 @@
                     <i class="fa-brands fa-twitter"></i>
                 </a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Youtube chanel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Youtube chanel (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
             </li>
         </ul>
         <div id="info-author">
