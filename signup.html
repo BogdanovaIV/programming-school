@@ -49,57 +49,59 @@
             <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Let's join our time!</h2>
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <input type="text" id="first-name" name="first-name" class="text-input box-shadow" required>
                 <br>
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <input type="text" id="last-name" name="last-name" class="text-input box-shadow" required>
                 <br>
                 <label for="age">Age</label>
-                <input type="number" id="age" name="age" class="text-input">
+                <input type="number" id="age" name="age" class="text-input box-shadow">
                 <br>
                 <label for="phone">Phone</label>
                 <!--Use pattern for sort out-->
                 <input type="tel" pattern="[0-9\+\-]+" title="Only numbers, + and - are allowed" id="phone" name="phone"
-                    class="text-input" >
+                    class="text-input box-shadow">
                 <br>
                 <label for="email-address">Email Address</label>
-                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <input type="email" id="email-address" name="email-address" class="text-input box-shadow" required>
                 <br>
                 <div class="checkbox-courses">
                     <h3>Select courses which you are interested in.</h3>
                     <div>
                         <input type="checkbox" id="course-sql-data-science" name="courses[]"
-                            value="course-sql-data-science">
-                        <label for="course-sql-data-science">SQL For Data Science And Analytics</label>
+                            value="course-sql-data-science" class="box-shadow">
+                        <label for="course-sql-data-science" class="text-shadow">SQL For Data Science And
+                            Analytics</label>
                     </div>
                     <div>
                         <input type="checkbox" id="course-sql-development" name="courses[]"
-                            value="course-sql-development">
-                        <label for="course-sql-development">SQL For Development</label>
+                            value="course-sql-development" class="box-shadow">
+                        <label for="course-sql-development" class="text-shadow">SQL For Development</label>
                     </div>
                     <div>
                         <input type="checkbox" id="course-python-data-analysis" name="courses[]"
-                            value="course-python-data-analysis">
-                        <label for="course-python-data-analysis">Python For Data Analysis</label>
+                            value="course-python-data-analysis" class="box-shadow">
+                        <label for="course-python-data-analysis" class="text-shadow">Python For Data Analysis</label>
                     </div>
                     <div>
                         <input type="checkbox" id="course-interface-designer" name="courses[]"
-                            value="course-interface-designer">
-                        <label for="course-interface-designer">Interface designer</label>
+                            value="course-interface-designer" class="box-shadow">
+                        <label for="course-interface-designer" class="text-shadow">Interface designer</label>
                     </div>
                     <div>
                         <input type="checkbox" id="course-graphic-designer" name="courses[]"
-                            value="course-graphic-designer">
-                        <label for="course-graphic-designer">Graphic Designer</label>
+                            value="course-graphic-designer" class="box-shadow">
+                        <label for="course-graphic-designer" class="text-shadow">Graphic Designer</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="course-java-developer" name="courses[]"
-                            value="course-java-developer">
-                        <label for="course-java-developer">Java Developer</label>
+                        <input type="checkbox" id="course-java-developer" name="courses[]" value="course-java-developer"
+                            class="box-shadow">
+                        <label for="course-java-developer" class="text-shadow">Java Developer</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="course-c-developer" name="courses[]" value="course-c-developer">
-                        <label for="course-c-developer">C++ Developer</label>
+                        <input type="checkbox" id="course-c-developer" name="courses[]" value="course-c-developer"
+                            class="box-shadow">
+                        <label for="course-c-developer" class="text-shadow">C++ Developer</label>
                     </div>
                 </div>
                 <button type="submit" class="button join-button">Let's Join!</button>

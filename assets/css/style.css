@@ -437,6 +437,12 @@ footer {
 /* Large devices (laptops and desktop, 992px and up)*/
 @media screen and (min-width: 992px) {
 
+    /*General*/
+    /* Add letter stroke*/
+    #social-networks i:hover, .text-shadow:hover {
+        text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+    }
+
     /* Header */
     /* Logo and menu are in one line*/
     #logo>img {
@@ -447,6 +453,7 @@ footer {
     header a:hover {
         text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
     }
+
     /* Main */
 
     .button:hover {
@@ -491,10 +498,11 @@ footer {
         background: url('../images/type-courses/programming-second.jpg') no-repeat center/cover;
     }
 
+    /*Sign up*/
+    .box-shadow:hover {
+        box-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+    }
+
     /* Footer */
 
-    /* Add letter stroke*/
-    #social-networks i:hover {
-        text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
-    }
 }
