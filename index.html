@@ -20,18 +20,25 @@
 
 <body>
     <header>
-
         <a id="logo" href="index.html">
-            <img src="assets/images/Logo/logo-390x390.png" alt="Our logo">
+            <img src="assets/images/Logo/logo-390x390.png" alt="Logo programming school">
             <h1>Programming School</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav role="navigation" aria-label="Main navigation menu">
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="signup.html">Sign up</a></li>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign up</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -56,6 +63,7 @@
                 <p>Frontend, Backend, Algorithms</p>
             </div>
         </section>
+        
         <section id="contact-us">
             <h2>Contact Us</h2>
             <div id="contact-us-items">
@@ -92,11 +100,17 @@
 
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
-                    aria-label="Visit our Youtube chanel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
+                    aria-label="Visit our Youtube chanel (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
             </li>
         </ul>
         <div id="info-author">
@@ -106,10 +120,8 @@
             2024 Irina Bogdanova
         </div>
     </footer>
-
     <!--Font awesome kit-->
     <script src="https://kit.fontawesome.com/dd22fe1336.js" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
