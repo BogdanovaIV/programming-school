@@ -6,3 +6,18 @@ Programming School is a website designed to assist potential students in obtaini
 The site can be accessed by this [link](https://bogdanovaiv.github.io/programming-school/)
 
 ![Responsive Mockup](documentation/programming-school-mockup.png)
+
+## Features
+
+### Existing Features
+
+- __Navigation Bar__
+
+  - This section contains image logo and links: the Logo, Home page, Courses and Sign Up.
+  - Navigation allow the user to easily get targets without having to revert back to the previous page via the ‘back’ button.
+  
+  ![Navigation Bar](documentation/programming-school-navigation-bar.png) 
+
+  - Links have hover effect: text-shadow.
+
+  ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-hover.png) 
