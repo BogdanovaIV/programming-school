@@ -35,7 +35,7 @@ header {
     letter-spacing: 1px;
     font-size: large;
     line-height: 25px;
-    color: #fafafa;
+    color: #ffffff;
     /*Set equal height for all phone and laptop*/
     min-height: 50px;
 
@@ -134,7 +134,7 @@ main {
     display: inline-block;
     padding: 1rem 4rem;
     background-color: #272727;
-    color: #fafafa;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     border: none;
@@ -156,7 +156,7 @@ main {
     border: none;
     height: 40vh;
     width: 40vh;
-    color: #fafafa;
+    color: #ffffff;
     padding: 2px 10px;
     margin: 1rem;
 
@@ -275,7 +275,7 @@ main {
 }
 
 #signup-form {
-    color: #fafafa;
+    color: #ffffff;
     background-color: #7d919eac;
     padding: 30px;
     border-radius: 5px;
@@ -291,8 +291,8 @@ main {
 
 .text-input {
     background: transparent;
-    color: #fafafa;
-    border: 1px solid #fafafa;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     margin: 5px 0;
     padding: 0 5px;
@@ -306,7 +306,7 @@ main {
 
 .join-button {
     background-color: #272727a8;
-    border: 1px solid #fafafa;
+    border: 1px solid #ffffff;
     padding: 1rem 3rem;
 }
 
@@ -316,7 +316,7 @@ main {
     background-size: cover;
     padding: 20px 10%;
     flex-grow: 1;
-    color: #fafafa;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,7 +329,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #96AEBE;
-    color: #fafafa;
+    color: #ffffff;
     box-shadow: 0 -2px 2px #7D919E;
 }
 
@@ -344,7 +344,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #fafafa;
+    color: #ffffff;
 }
 
 #red-heart {
