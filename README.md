@@ -129,4 +129,4 @@ The live link can be found [here](https://bogdanovaiv.github.io/programming-scho
 
 ### Media
 
-- The photos used on all page are from [This Open Source site] (https://pxhere.com)
+- The photos used on all page are from [This Open Source site](https://pxhere.com)
