@@ -405,7 +405,7 @@ footer {
 
     #courses-items img {
         height: 12rem;
-        width: fit-content;
+        width: initial;
     }
 
     #courses-items div {
