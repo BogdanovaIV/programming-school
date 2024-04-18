@@ -1,6 +1,5 @@
 # Programming School
 
-
 Programming School is a website designed to assist potential students in obtaining information about courses they can enroll in. It provides details about course prices, duration, and the skills that can be acquired during the courses. The target audience includes university students seeking additional knowledge in programming languages such as C++, JavaScript, and others. Additionally, individuals looking to transition into a new profession can also benefit from our offerings.
 
 The site can be accessed by this [link](https://bogdanovaiv.github.io/programming-school/)
@@ -15,12 +14,10 @@ __First Time Visitors To The Site__
  - As a new visitor, I want to figure out information about available courses and their characteristics to decide on signing up.
  - As a new visitor, I want to easily find the contact section or the contact form to get answers to my questions.
 
-__Repeat Or Regular Visitors__
+__Returning Or Regular Visitors__
 
  - As a returning or regular user, I want to quickly find information about new courses and updates to stay up to date with the latest events.
  - As a returning or regular user, I want to quickly navigate to sign up form, if I have already decided which course I want.
-
-
 
 ## Features
 
@@ -33,7 +30,7 @@ __Navigation Bar__
   
  ![Navigation Bar](documentation/programming-school-navigation-bar.png) 
 
- - Links have a hover effect: text-shadow.
+ - Links have a hover effect: changing color.
 
  ![Navigation Bar (hover)](documentation/programming-school-navigation-bar-hover.png) 
 
@@ -52,7 +49,7 @@ __The Footer__
 
  ![The Footer](documentation/programming-school-footer.png)
 
- - Links have a hover effect: text-shadow.
+ - Links have a hover effect: changing color.
 
  ![The Footer (hover)](documentation/programming-school-footer-hover.png)
 
@@ -106,6 +103,25 @@ __The Sign Up Page__
 
   ![The Sing Up Page (receiving the application)](documentation/programming-school-signup-press-button.png)
 
+## Technologies Used
+
+- HTML5 - There are different elements, attributes and meta tags to structure content and optimize web pages for search engines. 
+- CSS3 - It is used for styling elements, creating page layout, animation and responsive design.
+- Font Awesome - It is used for pasting icons improving appearance and web-page functionality. 
+
+## Design
+
+## Color Scheme
+  ![Color scheme](documentation/color-scheme.png)
+
+  - Soft shade of blue is used for the background of the navigation bar and the footer. It adds calmness and professionalism.
+  - Grey-blue color applied to font-color and other details. It creates contrast and provides good readability.
+  - White is used for the background of some sections and font-color. It creates a bright and open atmosphere, makes content more expressive and improves visual user experience.
+
+## Typography
+
+Font YSText is used for text content as first priority, which provides clarity and ease of perception and makes text convenient for reading. If YSText is unavailable, a browser will use Helvetica, then Arial, and finally standard sans-serif to provide capability of a wide range of devices and OS.
+
 ## Testing
 
 Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
@@ -119,6 +135,17 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 The live link can be found [here](https://bogdanovaiv.github.io/programming-school/)
 
+## Local Deployment
+
+To deploy the project locally, clone the repository. You can do this by running the following command in your terminal:
+
+`git clone https://github.com/BogdanovaIV/programming-school.git`
+
+## Future Improvements
+
+ - Send automatically email with thanks for response.
+ - Add more detail information about courses.
+ - Add the ability of reviews.
 
 ## Credits 
 
@@ -130,3 +157,9 @@ The live link can be found [here](https://bogdanovaiv.github.io/programming-scho
 ### Media
 
 - The photos used on all page are from [This Open Source site](https://pxhere.com)
+
+### Acknowledgments
+
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova/) was a great mentor which helped me to reveal my abilities and gave valuable advices.
+- [Code Institute team](https://codeinstitute.net/) supported me and provided all information which I needed.
+- [Github](https://github.com/) provided free access to a versioning system.
