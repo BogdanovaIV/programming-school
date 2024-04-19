@@ -25,7 +25,7 @@ __Returning Or Regular Visitors__
 
 __Navigation Bar__
 
- - This section contains image logo and links: the Logo, Home page, Courses and Sign Up.
+ - This section contains image logo and links: the Logo, the "Home" page, the "Courses" page and the "Sign Up" page.
  - The navigation allows the user to easily get targets without having to revert back to the previous page via the ‘back’ button.
   
  ![Navigation Bar](documentation/programming-school-navigation-bar.png) 
@@ -55,7 +55,7 @@ __The Footer__
 
 __The Home Page__
 
- - The page has a section with a tagline and a button which opens the Sign Up page. It attracts a user's attention and allows them to move quickly. Also, the button has a hover effect and changes the color.
+ - The page has a section with a tagline and a button which opens the "Sign Up" page. It attracts a user's attention and allows them to move quickly. Also, the button has a hover effect and changes the color.
 
  ![The Home Page (join our team)](documentation/programming-school-home-join-our-team.png)
  
@@ -83,7 +83,7 @@ __The Courses Page__
 
 __The Sign Up Page__
 
- - The page allows the user to join the course. The user can write personal information and check several courses. First name, Second name and Email are required. The form has hover a effect.
+ - The page allows the user to join the course. The user can write personal information and check several courses. First name, Last name and Email are required. The form has a hover effect.
 
  ![The Sing Up Page](documentation/programming-school-signup.png)
 
@@ -99,15 +99,15 @@ __The Sign Up Page__
 
   ![The Sing Up Page (hovered button)](documentation/programming-school-signup-hover-button.png)
 
-  When pressed, the button opens a new page with information about receiving the application. The page refreshes automatically to The Home page after 15 seconds. 
+  When pressed, the button opens a new page with information about receiving the application. The page refreshes automatically to The "Home" page in 15 seconds. 
 
   ![The Sing Up Page (receiving the application)](documentation/programming-school-signup-press-button.png)
 
 ## Technologies Used
 
 - HTML5 - There are different elements, attributes and meta tags to structure content and optimize web pages for search engines. 
-- CSS3 - It is used for styling elements, creating page layout, animation and responsive design.
-- Font Awesome - It is used for pasting icons improving appearance and web-page functionality. 
+- CSS3 - It is used to style elements and create page layout, for animation and responsive design.
+- Font Awesome - It is used to paste icons, improve appearance and for web-page functionality. 
 
 ## Design
 
@@ -115,12 +115,12 @@ __The Sign Up Page__
   ![Color scheme](documentation/color-scheme.png)
 
   - Soft shade of blue is used for the background of the navigation bar and the footer. It adds calmness and professionalism.
-  - Grey-blue color applied to font-color and other details. It creates contrast and provides good readability.
+  - Grey-blue color is applied to font-color and other details. It creates contrast and provides good readability.
   - White is used for the background of some sections and font-color. It creates a bright and open atmosphere, makes content more expressive and improves visual user experience.
 
 ## Typography
 
-Font YSText is used for text content as first priority, which provides clarity and ease of perception and makes text convenient for reading. If YSText is unavailable, a browser will use Helvetica, then Arial, and finally standard sans-serif to provide capability of a wide range of devices and OS.
+Font YSText is used for text content as first priority, which provides clarity and ease of perception and makes the text convenient to read. If YSText is unavailable, a browser will use Helvetica, then Arial, and finally standard Sans Serif to provide capability of a wide range of devices and OS.
 
 ## Testing
 
@@ -143,9 +143,9 @@ To deploy the project locally, clone the repository. You can do this by running 
 
 ## Future Improvements
 
- - Send automatically email with thanks for response.
- - Add more detail information about courses.
- - Add the ability of reviews.
+ - Send an automatic email with a thanks-you message.
+ - Add more detailed information about courses.
+ - Add a review feature.
 
 ## Credits 
 
@@ -161,5 +161,6 @@ To deploy the project locally, clone the repository. You can do this by running 
 ### Acknowledgments
 
 - [Juliia Konovalova](https://github.com/IuliiaKonovalova/) was a great mentor which helped me to reveal my abilities and gave valuable advices.
-- [Code Institute team](https://codeinstitute.net/) supported me and provided all information which I needed.
+- [Code Institute team](https://codeinstitute.net/) supported me and provided all the information which I needed.
 - [Github](https://github.com/) provided free access to a versioning system.
+- [ILoveImg](https://www.iloveimg.com/) provided a free services to compress images.
