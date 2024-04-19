@@ -58,6 +58,18 @@ __User Interface Testing__
 
 The showing objects on different devices were tested. Those look attractive and display properly.
 
+ - The "Home" page was tested on different devices be different users. Objects ook attractive and display properly.
+
+   ![User interface testing of the "Home" page](documentation/different-devices-home.png)
+
+- The "Courses" page was tested on different devices be different users. Objects ook attractive and display properly.
+
+   ![User interface testing of the "Courses" page](documentation/different-devices-courses.png)
+
+- The "Sign up" page was tested on different devices be different users. Objects ook attractive and display properly.
+
+   ![User interface testing of the "Sign up" page](documentation/different-devices-signup.png)
+
 __Compatibility Testing__
 
 The website was tested on different browsers such as Chrome, FireFox, Microsoft Edge. All objects function properly and display correctly. 
