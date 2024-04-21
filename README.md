@@ -105,9 +105,11 @@ __The Sign Up Page__
 
 ## Technologies Used
 
-- HTML5 - There are different elements, attributes and meta tags to structure content and optimize web pages for search engines. 
-- CSS3 - It is used to style elements and create page layout, for animation and responsive design.
-- Font Awesome - It is used to paste icons, improve appearance and for web-page functionality. 
+- HTML - There are different elements, attributes and meta tags to structure content and optimize web pages for search engines. 
+- CSS - It is used to style elements and create page layout, for animation and responsive design.
+- [Github](https://github.com/) - It is used to store versions.
+- [ILoveImg](https://www.iloveimg.com/) - It is used to resize and shrink images.
+- [Font Awesome](https://fontawesome.com/) - It is used to paste icons, improve appearance and for web-page functionality. 
 
 ## Design
 
