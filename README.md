@@ -130,8 +130,8 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
  - In the GitHub repository, navigate to the Settings tab 
- - From the source section drop-down menu, select the Master Branch
- - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+ - From the source section drop-down menu, select the Main branch
+ - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found [here](https://bogdanovaiv.github.io/programming-school/)
 
